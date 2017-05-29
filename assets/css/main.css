@@ -184,7 +184,8 @@
 			}
 
 			body {
-				background-color: #455D7A;
+				background-color: #455d7a;
+                background-image: url("https://www.transparenttextures.com/patterns/dark-leather.png");
 				background-position: top left, bottom left, auto;
 				background-size: auto, 100% 100%, cover;
 				background-repeat: repeat, no-repeat, auto;
