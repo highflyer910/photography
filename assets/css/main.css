@@ -277,6 +277,15 @@
 					margin: 0.5em 0 0 0;
 				}
 
+				.vertpan img{
+					margin-top: 0px;
+					transition: margin 1s ease;
+				}
+
+				.vertpan img:hover{
+					margin-top: -110px;
+				}
+
 		/* Footer */
 
 			#footer {
