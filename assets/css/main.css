@@ -444,6 +444,7 @@
 		/* Basic */
 
 			body {
+				background-color: var(--green);
 				font-size: 12pt;
 				line-height: 1.75em;
 			}
