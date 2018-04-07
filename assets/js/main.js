@@ -2,7 +2,7 @@ var parallelism = (function($) { var _ = {
 			settings: {
 
 				// Popup overlay color.
-					popupOverlayColor: '#455D7A',
+					popupOverlayColor: '#31423b',
 
 				// Popup overlay opacity.
 					popupOverlayOpacity: 0.75,
@@ -48,7 +48,7 @@ var parallelism = (function($) { var _ = {
 						padding: 5,
 
 					// Padding color.
-						paddingColor: '#E3E3E3',
+						paddingColor: '#d9e8e2',
 
 					// If true, reel scroll will reset on page refresh.
 						resetScroll: true,
