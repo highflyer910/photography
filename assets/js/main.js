@@ -608,3 +608,8 @@ var parallelism = (function($) { var _ = {
 }; return _; })(jQuery);
 
 parallelism.init();
+
+$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
