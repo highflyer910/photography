@@ -295,6 +295,15 @@
 					margin-top: -110px;
 				}
 
+				.vertpan2 img{
+					margin-top: 0px;
+					transition: margin 1s ease;
+				} 
+
+				.vertpan2 img:hover{
+					margin-top: -400px;
+				}
+
 		/* Footer */
 
 			#footer {
