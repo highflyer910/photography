@@ -193,7 +193,8 @@
 			}
 
 			body {
-				background-color: var(--green);
+				background: rgb(93,102,44);
+                background: linear-gradient(150deg, rgba(93,102,44,1) 38%, rgba(122,125,34,1) 72%, rgba(206,193,6,1) 100%);
 				background-position: top left, bottom left, auto;
 				background-size: auto, 100% 100%, cover;
 				background-repeat: repeat, no-repeat, auto;
