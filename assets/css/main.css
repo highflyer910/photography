@@ -1,7 +1,7 @@
 
 :root {
-	--green: #31423b;
-	--yellow: #cec106;
+	--green: #142d29;
+	--yellow: #FFA500;
 	--white: #d9e8e2;
 	--opacity: rgba(49, 66, 59, 0.2);
 } 
@@ -34,8 +34,6 @@
 /* Box Model */
 
 	*, *:before, *:after {
-		-moz-box-sizing: border-box;
-		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
 
@@ -44,28 +42,14 @@
 	body {
 		position: relative;
 		color: var(--white);
-		color: var(--opacity);
         font-family: 'IM Fell Double Pica', serif;
 		font-weight: 400;
 	}
 
-		body.is-loading *, body.is-loading *:before, body.is-loading *:after {
-			-moz-animation: none !important;
-			-webkit-animation: none !important;
-			-ms-animation: none !important;
-			animation: none !important;
-			-moz-transition: none !important;
-			-webkit-transition: none !important;
-			-ms-transition: none !important;
-			transition: none !important;
-		}
 
 	a {
 		color: rgba(255, 255, 255, 0.85);
 		text-decoration: none;
-		-moz-transition: color 0.25s ease-in-out;
-		-webkit-transition: color 0.25s ease-in-out;
-		-ms-transition: color 0.25s ease-in-out;
 		transition: color 0.25s ease-in-out;
 	}
 
@@ -148,8 +132,6 @@
 	}
 
 		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
 			font-family: FontAwesome;
 			font-style: normal;
 			font-weight: normal;
@@ -173,9 +155,8 @@
 
 	#header {
 		position: relative;
-		background: var(--yellow) url("images/overlay.png");
+		background: var(--yellow);
 		color: var(--green);
-		cursor: default;
 	}
 
 		#header p {
@@ -193,11 +174,7 @@
 			}
 
 			body {
-				background: rgb(93,102,44);
-                background: linear-gradient(150deg, rgba(93,102,44,1) 38%, rgba(122,125,34,1) 72%, rgba(206,193,6,1) 100%);
-				background-position: top left, bottom left, auto;
-				background-size: auto, 100% 100%, cover;
-				background-repeat: repeat, no-repeat, auto;
+                background: #142d29;
 				padding: 0;
 				font-size: 12pt;
 				line-height: 1.75em;
@@ -221,16 +198,10 @@
 			#wrapper {
 				height: 100%;
 				overflow: hidden;
-				-moz-transition: -moz-filter 0.25s ease-in-out;
-				-webkit-transition: -webkit-filter 0.25s ease-in-out;
-				-ms-transition: -ms-filter 0.25s ease-in-out;
 				transition: filter 0.25s ease-in-out;
 			}
 
 				#wrapper.overlayed {
-					-moz-filter: blur(3px);
-					-webkit-filter: blur(3px);
-					-ms-filter: blur(3px);
 					filter: blur(3px);
 				}
 
@@ -349,7 +320,6 @@
 				background: var(--green);
 				background: var(--opacity);
 				box-shadow: 0px 0px 0px 10px var(--white), 0px 10px 60px 10px rgba(8, 11, 19, 0.55);
-				cursor: default;
 			}
 
 				.poptrox-popup .loader {
@@ -382,9 +352,6 @@
 					text-decoration: none;
 					font-weight: normal;
 					font-style: normal;
-					-moz-transition: opacity 0.25s ease-in-out;
-					-webkit-transition: opacity 0.25s ease-in-out;
-					-ms-transition: opacity 0.25s ease-in-out;
 					transition: opacity 0.25s ease-in-out;
 					opacity: 0.35;
 				}
@@ -394,8 +361,6 @@
 					}
 
 				.poptrox-popup .nav-next, .poptrox-popup .nav-previous {
-					-moz-osx-font-smoothing: grayscale;
-					-webkit-font-smoothing: antialiased;
 					font-family: 'IM Fell Double Pica', serif;
 					font-style: normal;
 					font-weight: normal;
@@ -499,9 +464,6 @@
 		/* Wrapper */
 
 			#wrapper.overlayed {
-				-moz-filter: blur(1px);
-				-webkit-filter: blur(1px);
-				-ms-filter: blur(1px);
 				filter: blur(1px);
 			}
 
@@ -556,9 +518,6 @@
 				background: var(--green);
 				box-shadow: 0px 0px 30px 10px var(--opacity);
 				border: solid 2.5px var(--white);
-				-moz-box-sizing: content-box;
-				-webkit-box-sizing: content-box;
-				-ms-box-sizing: content-box;
 				box-sizing: content-box;
 			}
 
